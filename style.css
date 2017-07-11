@@ -7,8 +7,13 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family:  Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #646464;
-  background-color: #F6F6F7;
+  background-color: silver;
   margin: 0 10%;
+  text-align: center;
+}
+
+h1 {
+  color: red;
 }
 
 div {
@@ -24,9 +29,12 @@ div {
 }
 
 #main {
-  background-color: #E0F0F1;
+  background-color: midnightblue;
   font-size: 32px;
   margin: 1ex 0;
   padding: 1ex 0;
   text-align: center;
+  width: 40%;
+  transform: translateX(75%);
+  color: aqua;
 }
